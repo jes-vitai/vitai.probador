@@ -1,1 +1,64 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vitai — Probador virtual</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"><style>:root{--navy:#05003A;--turq:#0AF5D4;--line:#ECEEF2}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:#FEFEFE;color:#0A0A23;font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}.wrap{max-width:1120px;margin:0 auto;padding:0 20px}@media(min-width:768px){.wrap{padding:0 32px}}header{position:sticky;top:0;z-index:20;background:#FEFEFE;border-bottom:1px solid var(--line)}.h{height:72px;display:flex;align-items:center;justify-content:space-between}.logo-box{background:#05003A;border-radius:12px;padding:8px 14px;display:flex;align-items:center}.logo-box img{height:28px;display:block}h1{font-size:clamp(32px, 8vw, 60px);line-height:0.92;letter-spacing:-0.04em;color:#05003A;font-weight:500}h1 i{font-family:'Instrument Serif';font-style:italic;font-weight:400}.sub{font-size:clamp(15px,2.5vw,17px);color:rgba(10,10,35,0.68);margin-top:16px;max-width:38ch;line-height:1.6}.btn{display:inline-flex;height:48px;padding:0 28px;border-radius:999px;background:var(--turq);color:var(--navy);font-weight:600;font-size:14px;align-items:center;justify-content:center;margin-top:24px;box-shadow:0 8px 24px rgba(10,245,212,0.25)}.card{background:#F8F9FB;border:1px solid var(--line);border-radius:24px;padding:20px;margin-top:28px}.section{padding:48px 0;border-top:1px solid var(--line)}.pill{background:white;border:1px solid var(--line);border-radius:999px;padding:10px 14px;display:flex;gap:10px;align-items:center;font-size:13px;font-weight:500}.cta{background:white;border:1px solid var(--line);border-radius:28px;padding:32px 20px;text-align:center;margin:32px 0}.form{max-width:360px;margin:20px auto 0;display:flex;flex-direction:column;gap:10px}.form input{height:48px;border:1px solid var(--line);border-radius:999px;padding:0 18px;font-size:14px}footer{border-top:1px solid var(--line);padding:20px 0;font-size:12px;color:rgba(0,0,0,0.4);display:flex;justify-content:space-between;flex-wrap:wrap}</style></head><body><header><div class="wrap"><div class="h"><div class="logo-box"><img src="https://i.imgur.com/JQ1a1yF.png" alt="vitai"></div><nav style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(5,0,58,0.5)"><a href="#como" style="text-decoration:none;color:inherit;margin-right:16px">Cómo funciona</a><a href="#demo" style="text-decoration:none;color:#05003A;font-weight:600">Demo</a></nav></div></div></header><main class="wrap"><div style="padding:36px 0;display:grid;gap:24px"><div><h1>Probate antes<br>de comprar.<br><i style="font-family:'Instrument Serif';font-style:italic">Acertá siempre.</i></h1><p class="sub">Menos dudas, menos cambios, hasta 40% menos devoluciones.</p><a class="btn" href="#demo">Probar demo</a></div><div class="card"><div style="display:flex;justify-content:space-between;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(5,0,58,0.35);margin-bottom:20px"><span>Live preview</span><span>●</span></div><div class="pill"><span style="width:20px;height:20px;background:#05003A;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center">✓</span> Talle recomendado: M — 98% match</div></div></div><section class="section" id="como"><p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(5,0,58,0.4);margin-bottom:12px">Cómo funciona</p><h2 style="font-size:clamp(26px,5vw,42px);color:#05003A;line-height:0.95">Simple.<br><span style="font-family:'Instrument Serif';font-style:italic">Preciso.</span> Integrado.</h2></section><section class="cta" id="demo"><h2 style="font-size:clamp(24px,5vw,44px);color:#05003A;line-height:0.92">Probá Vitai en tu tienda<br><span style="font-family:'Instrument Serif';font-style:italic">hoy mismo.</span></h2><form class="form" onsubmit="event.preventDefault(); this.innerHTML='<p style=padding:16px;color:#05003A;font-weight:600>¡Gracias! Te escribimos en breve</p>'"><input type="email" placeholder="tu email" required><button class="btn" style="width:100%;border:0;cursor:pointer" type="submit">Quiero la demo</button></form></section></main><footer class="wrap"><span>Vitai © 2026</span><span>Hecho en Argentina</span></footer></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitai — Probador virtual</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#05003A;--turq:#0AF5D4;--line:#ECEEF2}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#FEFEFE;color:#0A0A23;font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+@media(min-width:768px){.wrap{padding:0 32px}}
+header{position:sticky;top:0;z-index:20;background:#FEFEFE;border-bottom:1px solid var(--line)}
+.h{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{height:38px;display:block;border-radius:10px;background:#05003A}
+h1{font-size:clamp(34px, 8vw, 64px);line-height:0.92;letter-spacing:-0.04em;color:#05003A;font-weight:600}
+h1 i{font-family:'Instrument Serif';font-style:italic;font-weight:400}
+.sub{font-size:clamp(15px,2.5vw,17px);color:rgba(10,10,35,0.68);margin-top:16px;max-width:42ch;line-height:1.6}
+.btn{display:inline-flex;height:48px;padding:0 28px;border-radius:999px;background:var(--turq);color:var(--navy);font-weight:700;font-size:14px;align-items:center;justify-content:center;margin-top:24px;text-decoration:none}
+.card{background:#F8F9FB;border:1px solid var(--line);border-radius:24px;padding:20px;margin-top:28px}
+.section{padding:48px 0;border-top:1px solid var(--line)}
+@media(min-width:900px){.hero{display:grid;grid-template-columns:1.2fr 0.8fr;gap:48px;align-items:center;padding:64px 0}}
+.pill{background:white;border:1px solid var(--line);border-radius:999px;padding:10px 14px;display:flex;gap:10px;align-items:center;font-size:13px;font-weight:500}
+.cta{background:white;border:1px solid var(--line);border-radius:28px;padding:32px 20px;text-align:center;margin:32px 0}
+.form{max-width:360px;margin:20px auto 0;display:flex;flex-direction:column;gap:10px}
+.form input{height:48px;border:1px solid var(--line);border-radius:999px;padding:0 18px;font-size:14px}
+footer{border-top:1px solid var(--line);padding:20px 0;font-size:12px;color:rgba(0,0,0,0.4);display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="h">
+<img class="logo" src="logovitai.jpg" alt="vitai probador virtual">
+<nav style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(5,0,58,0.5)"><a href="#como" style="text-decoration:none;color:inherit;margin-right:16px">Cómo funciona</a><a href="#demo" style="text-decoration:none;color:#05003A;font-weight:700">Demo</a></nav>
+</div></div></header>
+<main class="wrap">
+<div class="hero" style="padding:36px 0">
+<div>
+<h1>Probate antes<br>de comprar.<br><i>Acertá siempre.</i></h1>
+<p class="sub">Menos dudas, menos cambios, hasta 40% menos devoluciones. Tu clienta encuentra su talle perfecto.</p>
+<a class="btn" href="#demo">Probar demo</a>
+<p style="font-size:11px;color:rgba(0,0,0,0.35);margin-top:10px">Sin tarjeta · 5 min · Shopify & WooCommerce</p>
+</div>
+<div class="card">
+<div style="display:flex;justify-content:space-between;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(5,0,58,0.35);margin-bottom:20px"><span>Live preview</span><span style="width:24px;height:24px;border-radius:50%;background:white;border:1px solid #ECEEF2;display:flex;align-items:center;justify-content:center"><span style="width:6px;height:6px;background:#0AF5D4;border-radius:50%;display:block"></span></span></div>
+<div class="pill"><span style="width:20px;height:20px;background:#05003A;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center">✓</span> Talle recomendado: M — 98% match</div>
+</div>
+</div>
+<section class="section" id="como">
+<p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(5,0,58,0.4);margin-bottom:12px">Cómo funciona</p>
+<h2 style="font-size:clamp(26px,5vw,42px);color:#05003A;line-height:0.95">Simple.<br><span style="font-family:'Instrument Serif';font-style:italic">Preciso.</span> Integrado.</h2>
+</section>
+<section class="cta" id="demo">
+<h2 style="font-size:clamp(24px,5vw,44px);color:#05003A;line-height:0.92">Probá Vitai en tu tienda<br><span style="font-family:'Instrument Serif';font-style:italic">hoy mismo.</span></h2>
+<form class="form" onsubmit="event.preventDefault(); this.innerHTML='<p style=padding:16px;color:#05003A;font-weight:700>¡Gracias! Te escribimos en breve 💌</p>'">
+<input type="email" placeholder="tu email" required>
+<button class="btn" style="width:100%;border:0;cursor:pointer" type="submit">Quiero la demo</button>
+</form>
+</section>
+</main>
+<footer class="wrap"><span>Vitai © 2026</span><span>Hecho en Argentina</span></footer>
+</body>
+</html>
